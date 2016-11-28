@@ -22,6 +22,6 @@ RUN apk add --no-cache \
 RUN apk add --no-cache \
     git
 
-
+WORKDIR /usr/src/code
 ENTRYPOINT ["trash"]
 CMD ["--keep"]
